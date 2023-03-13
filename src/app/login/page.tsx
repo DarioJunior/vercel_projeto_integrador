@@ -1,5 +1,4 @@
 'use client'
-
 // import { Inter } from 'next/font/google';
 import axios from 'axios';
 import Image from 'next/image';
@@ -10,8 +9,9 @@ import './page.css';
 
 // const inter = Inter({ subsets: ['latin'] })
 
-const URL = process.env.VERCEL_URL
-const PORT = process.env.PORT
+const URL = process.env.REACT_APP_VERCEL_URL 
+
+
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -28,7 +28,7 @@ export default function Login() {
 
   const handleLogin = async () => {
     const result = await axios.post(
-      `${URL}/api/login`,
+      `/api/login`,
       {
         email: email,
         pwd: pwd
