@@ -10,6 +10,9 @@ import './page.css';
 
 // const inter = Inter({ subsets: ['latin'] })
 
+const URL = process.env.VERCEL_URL
+const PORT = process.env.PORT
+
 export default function Login() {
   const [email, setEmail] = useState('');
   const [pwd, setPwd] = useState('');
@@ -25,7 +28,7 @@ export default function Login() {
 
   const handleLogin = async () => {
     const result = await axios.post(
-      'http://localhost:3000/api/login',
+      `${URL}/api/login`,
       {
         email: email,
         pwd: pwd
