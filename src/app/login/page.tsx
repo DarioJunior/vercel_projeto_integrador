@@ -9,8 +9,6 @@ import './page.css';
 
 // const inter = Inter({ subsets: ['latin'] })
 
-const URL = process.env.REACT_APP_VERCEL_URL
-
 export default function Login() {
   const [email, setEmail] = useState('');
   const [pwd, setPwd] = useState('');
@@ -26,7 +24,7 @@ export default function Login() {
 
   const handleLogin = async () => {
     const result = await axios.post(
-      `${URL}/api/login`,
+      `/api/login`,
       {
         email: email,
         pwd: pwd
