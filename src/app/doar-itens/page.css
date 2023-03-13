@@ -127,7 +127,7 @@ main.DoarItensContainer {
 
 .DoarItensUploadInput {
   margin: 10px 0 0 0;
-  height: 80px; 
+  height: 35px; 
 }
 
 .DoarItensUploadContainer {
@@ -150,4 +150,14 @@ main.DoarItensContainer {
   width: 100px;
   height: 100px;
   margin: 0 auto;
+}
+
+.DoarItensUploadButton {
+  color:  #666BD3;
+  border: 2px solid  #666BD3;
+  background: none;
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  border-radius: 10px;
 }

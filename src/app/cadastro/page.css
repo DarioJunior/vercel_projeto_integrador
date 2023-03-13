@@ -1,0 +1,135 @@
+main.CadastroContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentContainer {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 0 0 0;
+}
+
+.MenuHeader {
+  width: 400px;
+  height: 80px;
+  /* border: 1px  solid red; */
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.IconsContainer {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MenuLogo {
+  width: 70px;
+  height: 70px;
+}
+
+.LoginInputPurpleLabel{
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.LoginPurplePwdContainer {
+  border: none;
+  width: 300px;
+  border-radius: 20px;
+  height: 30px;
+  margin: 5px 0;
+  background-color: #666BD3;
+  padding: 10px;
+  color: #fff;
+}
+
+.LoginPurplePwdContainer:hover {
+  cursor: pointer;
+}
+
+.CadastroPurpleUploadContainer {
+  border: none;
+  width: 300px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 5px auto;
+  background-color: #666BD3;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginPurpleEmailContainer {
+  border: none;
+  width: 300px;
+  border-radius: 20px;
+  height: 30px;
+  margin: 5px 0;
+  background-color: #666BD3;
+  padding: 10px;
+  color: #fff;
+}
+
+.LoginPurpleEmailContainer:hover {
+  cursor: pointer;
+}
+
+.LoginPurpleButton {
+  border: none;
+  width: 120px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 40px 10px;
+  background-color: #666BD3;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.LoginPurpleButton:hover {
+  background-color: #666BD3;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.LoginLogo {
+  position: absolute;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+}

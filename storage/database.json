@@ -1,0 +1,51 @@
+{
+  "users": {
+    "dario.junior.rs@gmail.com": {
+      "name": "Dario Junior",
+      "email": "dario.junior.rs@gmail.com",
+      "password": "123456",
+      "born_at": "15-12-1994"
+    },
+    "dario.junior.rs@test.com": {
+      "email": "dario.junior.rs@test.com",
+      "password": "",
+      "phone": ""
+    },
+    "dario1@teste.com": {
+      "email": "dario1@teste.com",
+      "password": "123456",
+      "phone": "99999999999"
+    },
+    "usuario.teste@test.com": {
+      "email": "usuario.teste@test.com",
+      "password": "123",
+      "phone": "534525235"
+    }
+  },
+  "doacoes": {
+    "dario.junior.rs@gmail.com": {
+      "doacoes": [
+        {
+          "id": 1,
+          "name": "Doação 1",
+          "description": "Descrição da doação 1",
+          "value": 100,
+          "date": "15-12-2019"
+        },
+        {
+          "id": 2,
+          "name": "Doação 2",
+          "description": "Descrição da doação 2",
+          "value": 200,
+          "date": "15-12-2019"
+        },
+        {
+          "name": "roupas",
+          "description": "ewrwe",
+          "value": "2",
+          "date": "2023-03-13T04:42:14.416Z"
+        }
+      ]
+    }
+  }
+}
