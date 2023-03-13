@@ -48,7 +48,7 @@ export default function Cadastro() {
     }
 
     const result = await axios.post(
-      'http://localhost:3000/api/cadastrar_usuario',
+      '/api/cadastrar_usuario',
       data
     )
 
