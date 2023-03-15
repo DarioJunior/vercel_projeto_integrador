@@ -1,3 +1,5 @@
+Por não estar integrado em um banco de dados, há um arquivo .json que é manipulado, porém, a vercel não permitiu escrever nele, e utilizar como um "banco de dados fictício", então utilizar o email de teste: dario.junior.rs@gmail.com e senha de teste: 123456
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
